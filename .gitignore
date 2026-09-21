@@ -1,0 +1,38 @@
+# C/C++ build products
+/Program/*.o
+/Program/*.obj
+/Program/*.exe
+/Program/*.pdb
+/Program/*.dSYM/
+/Program/split
+/Program/split_correctness
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Temporary files
+/tmp/
+*.log
+*.tmp
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Instance data is distributed in ZIP archives. Keep extracted copies local.
+/Instances-Full/
+/Instances-Full-vrpspdtw/
+/Benchmark-Instances/VRPTW/
+/Benchmark-Instances/VRPSPD/
+/Benchmark-Instances/VRPSPDTW/
+
+# Reproducible preview images
+/Experiments/*.png
